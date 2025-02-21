@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 169, 211);
+}
+    
+header {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+.cabecera{
+    background: #ec4fdf;
+    width: 100%;
+}
+.titulo{
+   color: rgb(18, 17, 17); 
+   font-family: fantasy;
+}
+.ingresar{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(18, 17, 17);
+    font-family: 'Trebuchet';
+    font-size: 1.2em;
+    border: 2px silver outset;
+}
+.boton{
+   display: inline-block;
+   padding: 8px 15px;
+   background-color: blue;
+   color: rgb(22, 21, 21);
+   text-decoration: none;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+}
+.boton-hover{
+    background-color: rgb(18, 5, 117);
+}
+.botones{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 50px;
+    border-radius: 50px;
+}
+.menu{
+    width: 70%;
+    text-align: center;
+}
+.buttons{
+    width: 10%;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+.tarjetas{
+    align-items:center ;
+    margin: 5rem;
+    height: 20rem;
+}
+.uno{
+    text-align: center;
+    margin-top: 10px;
+    border: 3px rgb(16, 15, 15) solid;
+    border-radius: 10px;
+    height: 21rem;
+    padding: 20px;
+    background: linear-gradient(rgb(19, 209, 9),rgb(12, 21, 129),rgb(249, 10, 10));
+}
+.uno p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: rgb(244, 236, 236);
+}
+.uno h1{
+    color: rgb(240, 240, 246); 
+    font-family: fantasy;
+}
+hr{
+    width: 90%;
+    margin: 30px auto;
+    border: 3px silver solid;
+}
+.sections{
+    width: 100%;
+    text-align: center;
+}
+.tres{
+    float: left;
+    width: 30%;
+    border: 1px rgb(9, 9, 9) solid;
+    border-radius: 10px;
+    margin: 12px;
+    background: rgb(243, 4, 167);
+}
+.tres p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+.tres img {
+    border-radius: 5em;
+    width: 100%; 
+    height: auto; 
+    max-width: 100px; 
+}
+
+.secundario{
+    clear: both;
+}
+.cuatro{
+    float: right;
+    width: 29%;
+    margin-top: 10px;
+    border: 1px rgb(9, 9, 9) solid;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(220, 63, 63);
+}
+.cuatro p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+.cuatro img {
+    border-radius: 1em;
+    width: 100%; /* Ajusta el ancho al contenedor */
+    height: auto; /* Mantiene la proporción */
+    max-width: 100px; /* Limita el tamaño máximo */
+}
+.cinco{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    border: 2px rgb(14, 14, 14) solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.cinco h2{
+    text-align: justify;
+    margin-top: 10px;
+}
+.cincop{
+    padding: 30px;
+    text-align: justify;
+}
+.seis{
+    float: right;
+    text-align: justify;
+    width: 45%;
+}
+@media (max-width: 768px) {
+    .uno, .dos, .tres, .cuatro, .cinco {
+        width: 100%; 
+        float: none; 
+    }
+}
+
+.formulario{
+    clear: both;
+}
+.contacto{
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px rgb(15, 9, 9) outset;
+    border-radius: 30px;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .contacto {
+        width: 90%; 
+    }
+}
+.contacto h2{
+    text-align: center;
+}
+.contacto label{
+    text-align: left;
+}
+.contacto p{
+    padding: 5px;
+    text-align: center;
+}
+.contacto p input{
+    text-align: center;
+}
+
+.enviar input{
+    height: 30px;
+    background-color: blue;
+    color: rgb(15, 11, 11);
+}
+
+
+.pie{
+    clear: both;
+}
+.redes{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.redes ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+@media (max-width: 768px) {
+    .redes ul li {
+        display: block; 
+        margin: 10px 0;
+    }
+}
+.redes ul li i{
+    margin-right: 30px;
+    color: black;
+}
+.vertical{
+    width: 20%;
+    margin: 20px auto;
+}
+    
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #eb0de0;
+}
+.p{
+    background-color: rgb(174, 3, 3);
+}
